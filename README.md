@@ -2,6 +2,8 @@
 
 An eurorack logic module build with an arduino nano with several logic functions.
 
+![Screenshot](pictures/IMG_2887.JPG)
+
 # Goal: use Make-Noise Morphagene as easy to use looper
 
 One of my main modules in my eurorack case is the Make-Noise Morphagene. One thing that i'd like it to do is:
