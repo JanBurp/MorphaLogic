@@ -4,7 +4,10 @@ An Eurorack module based around a Arduino Nano.
 
 With AND, OR, XOR logic functions, a Flip Flip (Q), a Clock Divider mode, and more.
 
-<img src="pictures/FRONT PANEL.png" alt="Morgalogic Front Panel" height="350px">
+<img src="pictures/FRONT PANEL.png" alt="Morgalogic Front Panel" height="400px">
+<img src="pictures/BACK.jpg" alt="Morgalogic Back" height="400px">
+<img src="pictures/INSIDE RACK.jpg" alt="Morgalogic in rack" height="400px">
+
 
 ## Inputs, Outputs & Buttons
 
