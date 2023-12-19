@@ -1,0 +1,1597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/jan/Desktop/DIY modules/LogicModule/LogicModule.kicad_sch</source>
+    <date>Tuesday, 19 December 2023 at 16:08:04</date>
+    <tool>Eeschema (7.0.0-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>TrigDuino</title>
+        <company>Jan den Besten</company>
+        <rev>0.1</rev>
+        <date/>
+        <source>LogicModule.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>Arduino_Nano_v2.x</value>
+      <footprint>Module:Arduino_Nano</footprint>
+      <datasheet>https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf</datasheet>
+      <fields>
+        <field name="Datasheet">https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf</field>
+        <field name="Reference">A1</field>
+        <field name="Value">Arduino_Nano_v2.x</field>
+      </fields>
+      <libsource lib="MCU_Module" part="Arduino_Nano_v2.x" description="Arduino Nano v2.x"/>
+      <property name="Datasheet" value="https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf"/>
+      <property name="Reference" value="A1"/>
+      <property name="Value" value="Arduino_Nano_v2.x"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Arduino Nano v2.x"/>
+      <property name="ki_keywords" value="Arduino nano microcontroller module USB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061cc2ea6</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED button</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">D1</field>
+        <field name="Value">LED</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="D1"/>
+      <property name="Value" value="LED"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061cde303</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED Mode</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">D2</field>
+        <field name="Value">LED</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="D2"/>
+      <property name="Value" value="LED"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061ce7ff8</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED Reset</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">D3</field>
+        <field name="Value">LED</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="D3"/>
+      <property name="Value" value="LED"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061cea349</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</field>
+        <field name="Reference">D4</field>
+        <field name="Value">1N4148</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Datasheet" value="https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"/>
+      <property name="Reference" value="D4"/>
+      <property name="Value" value="1N4148"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e58a01</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>LED inpA</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">D5</field>
+        <field name="Value">LED</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="D5"/>
+      <property name="Value" value="LED"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e58a36</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>LED AND </value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">D6</field>
+        <field name="Value"> </field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="D6"/>
+      <property name="Value" value=" "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d40564</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</field>
+        <field name="Reference">D7</field>
+        <field name="Value">1N4148</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Datasheet" value="https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"/>
+      <property name="Reference" value="D7"/>
+      <property name="Value" value="1N4148"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e398e9</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>LED inpB</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">D8</field>
+        <field name="Value">LED</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="D8"/>
+      <property name="Value" value="LED"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e3991e</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>LED OR</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">D9</field>
+        <field name="Value"> </field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="D9"/>
+      <property name="Value" value=" "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d820ec</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>LED XOR</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">D10</field>
+        <field name="Value"> </field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="D10"/>
+      <property name="Value" value=" "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d86fb5</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</field>
+        <field name="Reference">D11</field>
+        <field name="Value">1N4148</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Datasheet" value="https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"/>
+      <property name="Reference" value="D11"/>
+      <property name="Value" value="1N4148"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e2e61f</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>LED inpNOT</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">D12</field>
+        <field name="Value">LED</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="D12"/>
+      <property name="Value" value="LED"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e2e654</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>LED Q</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">D13</field>
+        <field name="Value"> </field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="D13"/>
+      <property name="Value" value=" "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d8b0d0</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>LED ngate</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">D14</field>
+        <field name="Value"> </field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="D14"/>
+      <property name="Value" value=" "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d8f798</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</field>
+        <field name="Reference">D15</field>
+        <field name="Value">1N4148</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Datasheet" value="https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"/>
+      <property name="Reference" value="D15"/>
+      <property name="Value" value="1N4148"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e1ff38</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>LED trig</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">D16</field>
+        <field name="Value"> </field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="D16"/>
+      <property name="Value" value=" "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d953de</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>LED inpCLK</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">D17</field>
+        <field name="Value">LED</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="D17"/>
+      <property name="Value" value="LED"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e1ff6d</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>INPUT A</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">J1</field>
+        <field name="Value">INPUT A</field>
+      </fields>
+      <libsource lib="LogicModule-rescue" part="AudioJack2-Connector" description=""/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="J1"/>
+      <property name="Value" value="INPUT A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e58a1f</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>INPUT B</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">J2</field>
+        <field name="Value">INPUT B</field>
+      </fields>
+      <libsource lib="LogicModule-rescue" part="AudioJack2-Connector" description=""/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="J2"/>
+      <property name="Value" value="INPUT B"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e39907</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>AND</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">J3</field>
+        <field name="Value">AND</field>
+      </fields>
+      <libsource lib="LogicModule-rescue" part="AudioJack2-Connector" description=""/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="J3"/>
+      <property name="Value" value="AND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d40557</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>OR</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">J4</field>
+        <field name="Value">OR</field>
+      </fields>
+      <libsource lib="LogicModule-rescue" part="AudioJack2-Connector" description=""/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="J4"/>
+      <property name="Value" value="OR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d820f8</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>XOR</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">J5</field>
+        <field name="Value">XOR</field>
+      </fields>
+      <libsource lib="LogicModule-rescue" part="AudioJack2-Connector" description=""/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="J5"/>
+      <property name="Value" value="XOR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d86fc1</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>INPUT NOT</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">J6</field>
+        <field name="Value">INPUT NOT</field>
+      </fields>
+      <libsource lib="LogicModule-rescue" part="AudioJack2-Connector" description=""/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="J6"/>
+      <property name="Value" value="INPUT NOT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e2e63d</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Q</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">J7</field>
+        <field name="Value">Q</field>
+      </fields>
+      <libsource lib="LogicModule-rescue" part="AudioJack2-Connector" description=""/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="J7"/>
+      <property name="Value" value="Q"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d8b0dc</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>NGATE</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">J8</field>
+        <field name="Value">NGATE</field>
+      </fields>
+      <libsource lib="LogicModule-rescue" part="AudioJack2-Connector" description=""/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="J8"/>
+      <property name="Value" value="NGATE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d8f7a4</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>INPUT CLOCK</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">J9</field>
+        <field name="Value">INPUT CLOCK</field>
+      </fields>
+      <libsource lib="LogicModule-rescue" part="AudioJack2-Connector" description=""/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="J9"/>
+      <property name="Value" value="INPUT CLOCK"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e1ff56</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>TRIG</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">J10</field>
+        <field name="Value">TRIG</field>
+      </fields>
+      <libsource lib="LogicModule-rescue" part="AudioJack2-Connector" description=""/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="J10"/>
+      <property name="Value" value="TRIG"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d953ea</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_02x05_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006209d788</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BC337</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf</datasheet>
+      <fields>
+        <field name="Datasheet">https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf</field>
+        <field name="Reference">Q1</field>
+        <field name="Value">BC337</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC337" description="0.8A Ic, 45V Vce, NPN Transistor, TO-92"/>
+      <property name="Datasheet" value="https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"/>
+      <property name="Reference" value="Q1"/>
+      <property name="Value" value="BC337"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e58a13</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>BC337</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf</datasheet>
+      <fields>
+        <field name="Datasheet">https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf</field>
+        <field name="Reference">Q2</field>
+        <field name="Value">BC337</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC337" description="0.8A Ic, 45V Vce, NPN Transistor, TO-92"/>
+      <property name="Datasheet" value="https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"/>
+      <property name="Reference" value="Q2"/>
+      <property name="Value" value="BC337"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e398fb</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>BC337</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf</datasheet>
+      <fields>
+        <field name="Datasheet">https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf</field>
+        <field name="Reference">Q3</field>
+        <field name="Value">BC337</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC337" description="0.8A Ic, 45V Vce, NPN Transistor, TO-92"/>
+      <property name="Datasheet" value="https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"/>
+      <property name="Reference" value="Q3"/>
+      <property name="Value" value="BC337"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e2e631</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>BC337</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf</datasheet>
+      <fields>
+        <field name="Datasheet">https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf</field>
+        <field name="Reference">Q4</field>
+        <field name="Value">BC337</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC337" description="0.8A Ic, 45V Vce, NPN Transistor, TO-92"/>
+      <property name="Datasheet" value="https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"/>
+      <property name="Reference" value="Q4"/>
+      <property name="Value" value="BC337"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e1ff4a</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">R1</field>
+        <field name="Value">1k</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="R1"/>
+      <property name="Value" value="1k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061cde309</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">R2</field>
+        <field name="Value">1k</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="R2"/>
+      <property name="Value" value="1k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061ce7ff2</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">R3</field>
+        <field name="Value">1k</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="R3"/>
+      <property name="Value" value="1k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061cea343</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">R4</field>
+        <field name="Value">10k</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="R4"/>
+      <property name="Value" value="10k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e58a07</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">R5</field>
+        <field name="Value">1k</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="R5"/>
+      <property name="Value" value="1k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e58a0d</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">R6</field>
+        <field name="Value">1K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="R6"/>
+      <property name="Value" value="1K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d40543</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">R7</field>
+        <field name="Value">10k</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="R7"/>
+      <property name="Value" value="10k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e398ef</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">R8</field>
+        <field name="Value">1K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="R8"/>
+      <property name="Value" value="1K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d4055e</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">R9</field>
+        <field name="Value">1k</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="R9"/>
+      <property name="Value" value="1k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e398f5</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">R10</field>
+        <field name="Value">1K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="R10"/>
+      <property name="Value" value="1K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d8210c</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">R11</field>
+        <field name="Value">1K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="R11"/>
+      <property name="Value" value="1K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d820f2</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">R12</field>
+        <field name="Value">1K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="R12"/>
+      <property name="Value" value="1K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d86fd5</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">R13</field>
+        <field name="Value">1K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="R13"/>
+      <property name="Value" value="1K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d86fbb</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">R14</field>
+        <field name="Value">10k</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="R14"/>
+      <property name="Value" value="10k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e2e625</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">R15</field>
+        <field name="Value">1K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="R15"/>
+      <property name="Value" value="1K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d8b0f0</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">R16</field>
+        <field name="Value">1k</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="R16"/>
+      <property name="Value" value="1k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e2e62b</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">R17</field>
+        <field name="Value">1K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="R17"/>
+      <property name="Value" value="1K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d8b0d6</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">R18</field>
+        <field name="Value">1K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="R18"/>
+      <property name="Value" value="1K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d8f7b8</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">R19</field>
+        <field name="Value">1K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="R19"/>
+      <property name="Value" value="1K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d8f79e</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">R20</field>
+        <field name="Value">10k</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="R20"/>
+      <property name="Value" value="10k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e1ff3e</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">R21</field>
+        <field name="Value">1K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="R21"/>
+      <property name="Value" value="1K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d953fe</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">R22</field>
+        <field name="Value">1K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="R22"/>
+      <property name="Value" value="1K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d953e4</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">R23</field>
+        <field name="Value">1k</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="R23"/>
+      <property name="Value" value="1k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e1ff44</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>Button</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">SW1</field>
+        <field name="Value">Button</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="SW1"/>
+      <property name="Value" value="Button"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061ccb290</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>Mode</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">SW2</field>
+        <field name="Value">Mode</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="SW2"/>
+      <property name="Value" value="Mode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061cd26ca</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>Reset</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">SW3</field>
+        <field name="Value">Reset</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="SW3"/>
+      <property name="Value" value="Reset"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LogicModule.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061cd3c54</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LogicModule-rescue" part="AudioJack2-Connector">
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_AudioJack2</field>
+      </fields>
+      <pins>
+        <pin num="S" name="" type="passive"/>
+        <pin num="T" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="Arduino_Nano_v2.x">
+      <description>Arduino Nano v2.x</description>
+      <docs>https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf</docs>
+      <footprints>
+        <fp>Arduino*Nano*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_Nano_v2.x</field>
+        <field name="Footprint">Module:Arduino_Nano</field>
+        <field name="Datasheet">https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1/TX" type="bidirectional"/>
+        <pin num="2" name="D0/RX" type="bidirectional"/>
+        <pin num="3" name="~{RESET}" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2" type="bidirectional"/>
+        <pin num="6" name="D3" type="bidirectional"/>
+        <pin num="7" name="D4" type="bidirectional"/>
+        <pin num="8" name="D5" type="bidirectional"/>
+        <pin num="9" name="D6" type="bidirectional"/>
+        <pin num="10" name="D7" type="bidirectional"/>
+        <pin num="11" name="D8" type="bidirectional"/>
+        <pin num="12" name="D9" type="bidirectional"/>
+        <pin num="13" name="D10" type="bidirectional"/>
+        <pin num="14" name="D11" type="bidirectional"/>
+        <pin num="15" name="D12" type="bidirectional"/>
+        <pin num="16" name="D13" type="bidirectional"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="AREF" type="input"/>
+        <pin num="19" name="A0" type="bidirectional"/>
+        <pin num="20" name="A1" type="bidirectional"/>
+        <pin num="21" name="A2" type="bidirectional"/>
+        <pin num="22" name="A3" type="bidirectional"/>
+        <pin num="23" name="A4" type="bidirectional"/>
+        <pin num="24" name="A5" type="bidirectional"/>
+        <pin num="25" name="A6" type="bidirectional"/>
+        <pin num="26" name="A7" type="bidirectional"/>
+        <pin num="27" name="+5V" type="power_out"/>
+        <pin num="28" name="~{RESET}" type="input"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC337">
+      <description>0.8A Ic, 45V Vce, NPN Transistor, TO-92</description>
+      <docs>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC337</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="LogicModule-rescue">
+      <uri>/Users/jan/Desktop/DIY modules/LogicModule/LogicModule-rescue.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//MCU_Module.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Transistor_BJT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+12V">
+      <node ref="A1" pin="30" pinfunction="VIN" pintype="power_in"/>
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="A1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="S" pintype="passive"/>
+      <node ref="J10" pin="S" pintype="passive"/>
+      <node ref="J11" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J11" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J11" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J11" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J11" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J11" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J2" pin="S" pintype="passive"/>
+      <node ref="J3" pin="S" pintype="passive"/>
+      <node ref="J4" pin="S" pintype="passive"/>
+      <node ref="J5" pin="S" pintype="passive"/>
+      <node ref="J6" pin="S" pintype="passive"/>
+      <node ref="J7" pin="S" pintype="passive"/>
+      <node ref="J8" pin="S" pintype="passive"/>
+      <node ref="J9" pin="S" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(A1-+5V)">
+      <node ref="A1" pin="27" pinfunction="+5V" pintype="power_out"/>
+      <node ref="Q1" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(A1-A2)">
+      <node ref="A1" pin="21" pinfunction="A2" pintype="bidirectional"/>
+      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(A1-A3)">
+      <node ref="A1" pin="22" pinfunction="A3" pintype="bidirectional"/>
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(A1-A4)">
+      <node ref="A1" pin="23" pinfunction="A4" pintype="bidirectional"/>
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(A1-A5)">
+      <node ref="A1" pin="24" pinfunction="A5" pintype="bidirectional"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(A1-D2)">
+      <node ref="A1" pin="5" pinfunction="D2" pintype="bidirectional"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(A1-D3)">
+      <node ref="A1" pin="6" pinfunction="D3" pintype="bidirectional"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(A1-D4)">
+      <node ref="A1" pin="7" pinfunction="D4" pintype="bidirectional"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(A1-D5)">
+      <node ref="A1" pin="8" pinfunction="D5" pintype="bidirectional"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(A1-D6)">
+      <node ref="A1" pin="9" pinfunction="D6" pintype="bidirectional"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(A1-D7)">
+      <node ref="A1" pin="10" pinfunction="D7" pintype="bidirectional"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(A1-D8)">
+      <node ref="A1" pin="11" pinfunction="D8" pintype="bidirectional"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(A1-D9)">
+      <node ref="A1" pin="12" pinfunction="D9" pintype="bidirectional"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(A1-D10)">
+      <node ref="A1" pin="13" pinfunction="D10" pintype="bidirectional"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(A1-D11)">
+      <node ref="A1" pin="14" pinfunction="D11" pintype="bidirectional"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(A1-D12)">
+      <node ref="A1" pin="15" pinfunction="D12" pintype="bidirectional"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(A1-D13)">
+      <node ref="A1" pin="16" pinfunction="D13" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(D3-A)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(D4-K)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(D5-K)">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(D6-A)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(D7-K)">
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(D8-K)">
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(D9-A)">
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(D10-A)">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(D11-K)">
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(D12-K)">
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(D13-A)">
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(D14-A)">
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(D15-K)">
+      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(D16-A)">
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(D17-K)">
+      <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(J1-PadT)">
+      <node ref="J1" pin="T" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(J2-PadT)">
+      <node ref="J2" pin="T" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(J3-PadT)">
+      <node ref="J3" pin="T" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(J4-PadT)">
+      <node ref="J4" pin="T" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(J5-PadT)">
+      <node ref="J5" pin="T" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(J6-PadT)">
+      <node ref="J6" pin="T" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(J7-PadT)">
+      <node ref="J7" pin="T" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(J8-PadT)">
+      <node ref="J8" pin="T" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(J9-PadT)">
+      <node ref="J9" pin="T" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(J10-PadT)">
+      <node ref="J10" pin="T" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(J11-Pin_10)">
+      <node ref="J11" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J11" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="48" name="unconnected-(A1-3V3-Pad17)">
+      <node ref="A1" pin="17" pinfunction="3V3" pintype="power_out+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(A1-A0-Pad19)">
+      <node ref="A1" pin="19" pinfunction="A0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(A1-A1-Pad20)">
+      <node ref="A1" pin="20" pinfunction="A1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(A1-A6-Pad25)">
+      <node ref="A1" pin="25" pinfunction="A6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(A1-A7-Pad26)">
+      <node ref="A1" pin="26" pinfunction="A7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(A1-AREF-Pad18)">
+      <node ref="A1" pin="18" pinfunction="AREF" pintype="input+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(A1-D0{slash}RX-Pad2)">
+      <node ref="A1" pin="2" pinfunction="D0/RX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(A1-D1{slash}TX-Pad1)">
+      <node ref="A1" pin="1" pinfunction="D1/TX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(A1-GND-Pad29)">
+      <node ref="A1" pin="29" pinfunction="GND" pintype="power_in+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(A1-~{RESET}-Pad3)">
+      <node ref="A1" pin="3" pinfunction="~{RESET}" pintype="input+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(A1-~{RESET}-Pad28)">
+      <node ref="A1" pin="28" pinfunction="~{RESET}" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
