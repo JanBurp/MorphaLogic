@@ -116,4 +116,4 @@ If you'd like to build this module you can buy a kit with:
 
 Contact me if you are interested.
 
-By Jan den Besten (www.jandenbesten.com)
+By Jan den Besten <a href="https://www.jandenbesten.com">www.jandenbesten.com</a>

@@ -95,10 +95,9 @@ Now:
 - When releasing the TRIG BUTTON the Morphagene stops recording and starts playing.
 - If in Clock Divider mode and no Clock signal is present at the CLOCK input, the tempo is set to the time between pressing and releasing the button.
 
-# Repo:
+# GitHub Repo:
 
-(github.com/JanBurp/MorphaLogic)[https://github.com/JanBurp/MorphaLogic]
-
+<a href="https://github.com/JanBurp/MorphaLogic">github.com/JanBurp/MorphaLogic</a>
 
 # Buying a kit
 
@@ -110,4 +109,4 @@ If you'd like to build this module you can buy a kit with:
 
 Contact me if you are interested.
 
-By Jan den Besten (www.jandenbesten.com)[www.jandenbesten.com]
+By Jan den Besten <a href="https://www.jandenbesten.com">www.jandenbesten.com</a>
