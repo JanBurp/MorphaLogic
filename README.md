@@ -114,8 +114,6 @@ If you'd like to build this module you can buy a kit with:
 - Frontpanel
 - 3D printed buttons
 
-€ 25,- excluding shipping.
-
 Contact me if you are interested.
 
 By Jan den Besten (www.jandenbesten.com)
