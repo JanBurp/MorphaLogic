@@ -5,36 +5,22 @@ An Eurorack module based around a Arduino Nano.
 With AND, OR, XOR logic functions, a Flip Flip (Q), a Clock Divider mode, and more.
 
 <img src="pictures/FRONT PANEL.png" alt="Morgalogic Front Panel" height="400px">
-<img src="pictures/BACK.jpg" alt="Morgalogic Back" height="400px">
-<img src="pictures/INSIDE RACK.jpg" alt="Morgalogic in rack" height="400px">
 
 
 ## Inputs, Outputs & Buttons
 
-Left side, from top to bottom:
-
-- INPUT: First input for logic functions (A).
-- INPUT: Second input for logic functions (B).
-- INPUT: Inverse, if HIGH the Logic outputs will be inversed. (INV)
-- INPUT: Clock, if connected the Logic outputs can only be HIGH when clock is HIGH. (CLK)
-- OUTPUT: Inverse of TRIG BUTTON
-
-Right side, from top to bottom:
-
-- OUTPUT: AND (or clock / 16)
-- OUTPUT: OR (or clock / 8)
-- OUTPUT: XOR (or clock / 4)
-- OUTPUT: Q - Flip Flop with A = set, B = reset (or clock / 2)
-- OUTPUT: Short trigger on press & release of the TRIG BUTTON
-
-## Buttons
-
-- MODE button:
-  - Normal press toggles between normal or inverse output of all logic outputs. (off or lit)
-  - Long press toggles clock divider mode. (flashing)
-- RESET button:
-  - Reset Q & clock (when set with TRIG BUTTON).
-  - Long press toggles External TRIG mode (see below)
+<table>
+<tr>
+<td><b>LEFT</b></td><td style="text-align: right;"><b>RIGHT</b></td>
+    <tr><td>INPUT: input (A)</td><td style="text-align: right;">OUTPUT: AND (or clock / 16)</td></tr>
+    <tr><td>INPUT: input (B)</td><td style="text-align: right;">OUTPUT: OR (or clock / 8)</td></tr>
+    <tr><td>INPUT: Inverse (INV)</td><td style="text-align: right;">OUTPUT: XOR (or clock / 4)</td></tr>
+    <tr><td>INPUT: Clock (CLK)</td><td style="text-align: right;">OUTPUT: Q - Flip Flop (or clock / 2)</td></tr>
+    <tr><td>OUTPUT: Inverse of TRIG BUTTON</td><td style="text-align: right;">Trigger on press & release of TRIG BUTTON</td></tr>
+    <tr><td>BUTTON: Mode button</td><td style="text-align: right;">BUTTON: Reset button</td></tr>
+    <tr><td colspan="2" style="text-align: center;">TRIG BUTTON</td></tr>
+</tr>
+</table>
 
 ## Functions
 
@@ -54,20 +40,20 @@ When the TRIG button is pressed (and released):
 - A short pulse is send to the second output on press & release of the button.
 - If the module is in Clock Divider mode, the press & release time will set the Clock Tempe if no signal is present on the CLOCK input.
 
-### Modes:
+## Modes:
 
 Current mode is set in memory.
 
-#### Normal mode (mode button is unlit):
+### Normal mode (mode button is unlit):
 
 - Inputs A & B determines logic outputs (AND, OR, XOR, Q). Where A is set and B is reset for the flipflop (Q).
 - If the NOT input is HIGH, all logic outputs are inverted (NAND, NOR, NXOR,NQ)
 
-#### Inverse mode (mode button is lit):
+### Inverse mode (mode button is lit):
 
 - Pressing the mode button will inverse all logic outputs (same as when NOT input is HIGH)
 
-#### Clockdivider mode (mode button is flashing):
+### Clockdivider mode (mode button is flashing):
 
 - A long press on the mode button will put the module in Clockdivider mode. The mode button will flash.
 - The logic outputs will divide the clock (where Q = /2, XOR = /4, OR = /8, AND =/16)
@@ -76,7 +62,7 @@ Current mode is set in memory.
   - If no clock is present on the CLK input, a standard 120 BPM clock is used.
   - Or, if the trig buttons has been pressed and released, the timing between press and release is used to determine the clock time.
 
-#### External Trig Mode (trig button flashes):
+### External Trig Mode (trig button flashes):
 
 - A long press of the RESET button toggles between external trig options mode on/off. When on, the trig button flashes.
 - When external trig mode is on, the first input can function as an external trig for the trig button.
@@ -114,8 +100,9 @@ Now:
 In this repo you'll find:
 
 - Arduino program
-- Schematics & PCB layout
-- PCB layout for frontpanel
+- Schematics
+- BOM
+- KiCad project with schematics & PCB & FrontPanel PCB
 - STL file for printing the buttons
 - Several pictures
 
