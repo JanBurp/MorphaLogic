@@ -1,6 +1,7 @@
 # MorphaLogic
 
 An Eurorack module based around a Arduino Nano.
+
 With AND, OR, XOR logic functions, a Flip Flip (Q), a Clock Divider mode, and more.
 
 <img src="pictures/FRONT PANEL.png" alt="Morgalogic Front Panel" height="350px">
